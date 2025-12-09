@@ -9,7 +9,7 @@
     --cor-branco: #FFFFFF;
 }
 
-/* GERAL */
+
 body {
     margin: 0;
     background: var(--cor-branco); /* AGORA TUDO É BRANCO */
@@ -22,13 +22,13 @@ body {
     font-weight: 700;
 }
 
-/* SOMENTE O TOPO LILÁS */
+
 #topo {
     background: var(--cor-lilas);
     color: var(--cor-preto);
 }
 
-/* HABILIDADES */
+
 .habilidades-container {
     display: flex;
     flex-wrap: wrap;
@@ -51,19 +51,18 @@ body {
     background: var(--cor-principal);
 }
 
-/* PARTE BRANCA DOS PROJETOS */
+
 #conteudo-branco {
     background: var(--cor-branco) !important;
     width: 100%;
     padding-top: 40px;
 }
 
-/* CARD */
 .card img {
     border-bottom: 1px solid #eee;
 }
 
-/* RODAPÉ */
+
 #rodape {
     background: var(--cor-escura);
     color: var(--cor-branco);
